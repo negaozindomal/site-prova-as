@@ -1,0 +1,14 @@
+public class ExemploSleep {
+    public static void main(String[] args) {
+        System.out.println("RDC o melhor curso da ep.");
+
+        try {
+            // Pausa a execução por 2 segundos (2000 milissegundos)
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            System.out.println("Vem pra redes.");
+        }
+
+        System.out.println("bixo tchola.");
+    }
+}
